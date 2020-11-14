@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1170px;
+}
+.sec1{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    z-index: 50;
+
+}
+.sec1 .col1{
+    width: 89%;
+}
+.sec1 .col1 .header{
+    margin: 30px;
+    padding: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+.sec1 .col1 .login{
+    background: white;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    border-radius: 8%;
+    box-shadow: 10px 10px 10px #3e3e3e;
+    text-align: center;
+}
+.sec1 .col1 .login .f{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #4267B2;
+    padding-top: 50px;
+}
+.sec1 .col1 .login .l{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.sec1 .col1 .login .input input,
+.sec1 .col1 .login .input button{
+    width: 70%;
+    padding: 20px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.sec1 .col1 .login .input button{
+    border: 3px solid #4267B2;
+    color: white;
+    background: #4267B2;
+}
+.sec1 .col1 .login .input p{
+    padding-top: 10px;
+}
+.sec1 .col1 .login .input p a{
+    color: #4267B2;
+}
+.sec1 .col2{
+    width: 10%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 80px;
+    text-align: center;
+    height: 100%;
+    background: #4267B2;
+    opacity: 0.5;
+
+
+}
+.sec1 .col2 ul li{
+    list-style: none;
+    margin-bottom: 30px;
+
+}
+.sec1 .col2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
